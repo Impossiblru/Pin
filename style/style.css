@@ -11,7 +11,7 @@ li, a, button{
     font-weight:500;
     font-size:16px;
     color:whitesmoke;
-    text-decoration: none;
+    text-decoration:none;
 }
 header{
     display:flex;
