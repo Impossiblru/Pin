@@ -1,4 +1,3 @@
-
 *{
     box-sizing: border-box;
     margin:0;
@@ -6,7 +5,6 @@
     background-color:#24252A;
 }
 li, a, button{
-
     font-family: sans-serif;
     font-weight:500;
     font-size:16px;
@@ -20,10 +18,8 @@ header{
     padding:30px,10px;
 }
 
-.Nav_bar{
-   
+.Nav_bar{  
     list-style: none;
-
 }
 .Nav_bar li{
     display: inline-block;
@@ -47,8 +43,25 @@ button:hover{
     background-color:black
 }
 #Background{
-
     width:100%;
     height: 100%;
     background-attachment: fixed;
+}
+form{
+    background-color:white;
+    font-family: sans-serif;
+    
+}
+label{
+    background-color:white;
+    display:inline-block;
+    width:450px;
+    text-align: right;
+    margin-right:8px;
+}
+input{
+    background-color: whitesmoke;
+    width: 450px;
+    padding:10px;
+    margin: 6px 0;
 }
