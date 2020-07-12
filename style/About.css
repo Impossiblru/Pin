@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    background-color:#24252A;
+    
 }
 li, a, button{
     font-family: sans-serif;
@@ -16,6 +16,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding:30px,10px;
+    background-color:#24252A;
 }
 
 .Nav_bar{  
@@ -46,26 +47,50 @@ button:hover{
     width:100%;
     height: 100%;
     background-attachment: fixed;
+   
 }
 form{
     background-color:white;
     font-family: sans-serif;
-    
+    align-content: center;
 }
 label{
     background-color:white;
+   
     display:inline-block;
-    width:450px;
     text-align: right;
     margin-right:8px;
+    align-content:center;
 }
 input{
-    background-color: whitesmoke;
+    
     width: 450px;
     padding:10px;
     margin: 6px 0;
     align-content: center;
+    border: 3px solid #555;
+    font-family: sans-serif;
 }
 input[submit]:hover{
         background-color:skyblue;
+}
+body{
+
+    background-color:rgb(228, 227, 226);
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+.formlabel{
+    border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+input[type=submit]{
+    background-color: #ACFF00;
+    
 }
