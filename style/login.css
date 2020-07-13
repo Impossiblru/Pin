@@ -1,0 +1,27 @@
+.authLogin{
+
+    text-align:center;
+    background-color:whitesmoke;
+    font-family: sans-serif;
+    padding:5%;
+}
+
+input{
+    width: 450px;
+    padding:10px;
+    margin: 6px 0;
+    align-content: center;
+    border: 3px solid #555;
+    font-family: sans-serif;
+}
+label{
+    font-family:sans-serif;
+    margin:5%;
+    padding:1%;
+}
+input[type=text] {
+   
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+  }

@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css"> 
+    <link rel="stylesheet" href="style/login.css">
     <title>Login</title>
 </head>
 <section>
     <header>
         <nav>
             <ul class="Nav_bar">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="GameRule.html">GameRule</a></li>
                 <li><a href="contactUs.html">Contact</a></li>
                 <li><a href="#">About us</a></li>   
@@ -27,15 +29,17 @@
     </header>
 </section>
 <body>
-        <div class=Signin>
-                <form>
-                    <div class="login">
-                        <label for="Fname"></label>
-
-                    </div>
-
-                </form>
-        </div>
+    <div class="authLogin">     
+        <form>
+            <!--form action="/action_page.php" method="get" -->
+         <label for="User">UserName</label><br>
+         <input type="text" id="UserName" name="UserName"><br>
+         <label for="passwd">Password:</label> <br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <br> 
+        <input type="submit" value="Submit"> 
+        </form>
+     </div> 
     
 </body>
 </html>
