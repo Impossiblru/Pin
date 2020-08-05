@@ -25,3 +25,18 @@ input[type=text] {
     border-radius: 4px;
     resize: vertical;
   }
+p{
+
+    text-align:center;    
+    font-family: sans-serif;
+    
+}
+#clickhere{
+
+    color:blue;
+    background-color:white;
+}
+#register{
+
+    Text-align:center;
+}
