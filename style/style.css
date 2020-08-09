@@ -48,8 +48,20 @@ body{
     background-color: aliceblue;
 }
 #btn_save{
-
     position: absolute;
     top:84%;
     left:55%;
+}
+#btn_restart{
+    position: absolute;
+    right:55%;
+    top:84%;
+}
+.welcome{
+    font-family: sans-serif;
+    position: absolute;
+    right:90%;
+    font-size:18px;
+    color:white;
+    list-style-type: none;
 }

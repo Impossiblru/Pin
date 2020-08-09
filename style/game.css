@@ -1,13 +1,14 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-
+  
   /*This will dictate how many cards are on the board, 3x4 cards on grid*/
   height: 300px;
   width: 400px;
   position: relative;
   left:35%;
   top:40px;
+  
 }
 h3{
     text-align:center;

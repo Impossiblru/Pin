@@ -20,7 +20,7 @@ fetch(myrequest)
 
 
 var cardsWon = []
-var data = {cardsWon = []};
+
 //card options
 var cardArray = [
   {
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
       var card = document.createElement('img')
-      card.setAttribute('src', 'images/blank.png')
+      card.setAttribute('src', 'images/greenbackground.png')
       card.setAttribute('data-id', i)
       card.addEventListener('click', flipCard)
       grid.appendChild(card)
@@ -103,8 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionTwoId = cardsChosenId[1]
 
     if(optionOneId == optionTwoId) {
-      cards[optionOneId].setAttribute('src', 'images/blank.png')
-      cards[optionTwoId].setAttribute('src', 'images/blank.png')
+      cards[optionOneId].setAttribute('src', 'images/greenbackground.png')
+      cards[optionTwoId].setAttribute('src', 'images/greenbackground.png')
       alert('You have clicked the same image!')
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
@@ -115,8 +115,8 @@ document.addEventListener('DOMContentLoaded', () => {
       cards[optionTwoId].removeEventListener('click', flipCard)
       cardsWon.push(cardsChosen)
     } else {
-      cards[optionOneId].setAttribute('src', 'images/blank.png')
-      cards[optionTwoId].setAttribute('src', 'images/blank.png')
+      cards[optionOneId].setAttribute('src', 'images/greenbackground.png')
+      cards[optionTwoId].setAttribute('src', 'images/greenbackground.png')
       alert('Sorry, try again')
     }
     cardsChosen = []
@@ -135,7 +135,6 @@ document.addEventListener('DOMContentLoaded', () => {
     this.setAttribute('src', cardArray[cardId].img)
     if (cardsChosen.length ===2) {
       setTimeout(checkForMatch, 500);
-      
     }
   }
   
@@ -144,7 +143,10 @@ document.addEventListener('DOMContentLoaded', () => {
   
   
 })
+function save1() {
 
+    alert("ERROR: Please make an account to save");
+}
 function saveGame(){
   //data.employees.push( {
     //firstName: 'John',
